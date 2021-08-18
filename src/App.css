@@ -11,7 +11,7 @@
 }
 
 .nav-bar {
-	margin-top: 40px;
+	margin-block: 40px;
 	width: 100%;
 	justify-content: flex-end;
 	display: flex;
@@ -24,8 +24,9 @@
 	position: relative;
 	text-transform: capitalize;
 	border-radius: 10px;
-	min-height: 200px;
-	height: 40px;
+	padding: 10px;
+	background-color: transparent;
+	background: transparent;
 }
 
 .nav-bar-item:hover {
@@ -38,5 +39,18 @@
 	position: absoulute;
 	bottom: 1;
 	left: 0;
+
 	z-index: -1;
+}
+
+.home-intro-heading {
+	color: #00ffa2;
+	font-weight: 700;
+	font-size: xx-large;
+}
+
+.home-intro-text {
+	color: beige;
+	font-weight: 400;
+	font-size: large;
 }

@@ -1,10 +1,9 @@
 import React, { Fragment } from 'react';
 import Navbar from './components/Navbar/Navbar';
 import './App.css';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Home from './components/screens/Home';
 import About from './components/screens/About';
-import { ChakraProvider } from '@chakra-ui/react';
 import Projects from './components/screens/Projects';
 function App() {
 	return (
