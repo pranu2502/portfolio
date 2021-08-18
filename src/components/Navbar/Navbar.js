@@ -1,35 +1,46 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route, Link } from 'react-router-dom';
-import About from '../screens/About';
-import Home from '../screens/Home';
+import { NavLink } from 'react-router-dom';
+import { HStack, Link } from '@chakra-ui/react';
+import { transparentize } from '@chakra-ui/theme-tools';
 function Navbar() {
 	return (
-		<BrowserRouter>
-			<div className="nav-bar">
-				<nav>
-					<ul>
-						<li>
-							<Link to="/">Home</Link>
-						</li>
-						<li>
-							<Link to="/about">About</Link>
-						</li>
-					</ul>
-				</nav>
-
-				{/* A <Switch> looks through its children <Route>s and
-            renders the first one that matches the current URL. */}
-				<Switch>
-					<Route path="/about">
-						<About />
-					</Route>
-
-					<Route path="/">
-						<Home />
-					</Route>
-				</Switch>
-			</div>
-		</BrowserRouter>
+		<div className="nav-bar">
+			<HStack spacing={16}>
+				<NavLink to="/">
+					<Link
+						className="nav-bar-item"
+						color="white"
+						_after={{
+							bg: transparentize(`brand.500`, 0.36),
+						}}
+					>
+						Home
+					</Link>
+				</NavLink>
+				<NavLink to="/about">
+					<Link
+						className="nav-bar-item"
+						color="white"
+						_after={{
+							bg: transparentize(`brand.500`, 0.36),
+						}}
+					>
+						About
+					</Link>
+				</NavLink>
+				<NavLink to="/projects">
+					<Link
+						className="nav-bar-item"
+						color="white"
+						_after={{
+							bg: transparentize(`brand.500`, 0.36),
+						}}
+					>
+						Projects
+					</Link>
+				</NavLink>
+			</HStack>
+		</div>
 	);
 }
 
