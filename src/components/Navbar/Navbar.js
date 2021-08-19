@@ -1,10 +1,17 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { HStack, Link } from '@chakra-ui/react';
+import { HStack, Link, Box } from '@chakra-ui/react';
 import { transparentize } from '@chakra-ui/theme-tools';
 function Navbar() {
 	return (
-		<div className="nav-bar">
+		<Box
+			width="60vw"
+			mt={12}
+			justifyContent="flex-end"
+			display="flex"
+			position="fixed"
+			top="0"
+		>
 			<HStack spacing={16}>
 				<NavLink to="/">
 					<Link
@@ -40,7 +47,7 @@ function Navbar() {
 					</Link>
 				</NavLink>
 			</HStack>
-		</div>
+		</Box>
 	);
 }
 
