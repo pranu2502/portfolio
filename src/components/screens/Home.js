@@ -104,12 +104,7 @@ function Home() {
 				mt={120}
 			>
 				<Box flex={{ base: 1, lg: 1 }}>
-					<Image
-						src={Dp}
-						alt="Display pic"
-						boxSize="200px"
-						borderRadius="full"
-					/>
+					<Image src={Dp} alt="Display pic" boxSize="200px" borderRadius="xl" />
 				</Box>
 				<Box flex={{ base: 1, lg: 2 }}>
 					<Text
