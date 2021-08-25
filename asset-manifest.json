@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "https://pranu2502.github.io/static/css/main.b6f55ebd.chunk.css",
-    "main.js": "https://pranu2502.github.io/static/js/main.6baa0fa6.chunk.js",
-    "main.js.map": "https://pranu2502.github.io/static/js/main.6baa0fa6.chunk.js.map",
-    "runtime-main.js": "https://pranu2502.github.io/static/js/runtime-main.2a1a084d.js",
-    "runtime-main.js.map": "https://pranu2502.github.io/static/js/runtime-main.2a1a084d.js.map",
-    "static/js/2.d12cb0dc.chunk.js": "https://pranu2502.github.io/static/js/2.d12cb0dc.chunk.js",
-    "static/js/2.d12cb0dc.chunk.js.map": "https://pranu2502.github.io/static/js/2.d12cb0dc.chunk.js.map",
-    "index.html": "https://pranu2502.github.io/index.html",
-    "static/css/main.b6f55ebd.chunk.css.map": "https://pranu2502.github.io/static/css/main.b6f55ebd.chunk.css.map",
-    "static/js/2.d12cb0dc.chunk.js.LICENSE.txt": "https://pranu2502.github.io/static/js/2.d12cb0dc.chunk.js.LICENSE.txt",
-    "static/media/AuxD-logo.1ba7df51.png": "https://pranu2502.github.io/static/media/AuxD-logo.1ba7df51.png",
-    "static/media/dp.667e3163.jpg": "https://pranu2502.github.io/static/media/dp.667e3163.jpg",
-    "static/media/portfolio.546a4f26.png": "https://pranu2502.github.io/static/media/portfolio.546a4f26.png",
-    "static/media/safe_excursions.f76e72fc.png": "https://pranu2502.github.io/static/media/safe_excursions.f76e72fc.png",
-    "static/media/sliding_puzzle.96cbbb43.jpg": "https://pranu2502.github.io/static/media/sliding_puzzle.96cbbb43.jpg"
+    "main.css": "https://pranu2502.github.io/portfolio/static/css/main.b6f55ebd.chunk.css",
+    "main.js": "https://pranu2502.github.io/portfolio/static/js/main.65d58ab7.chunk.js",
+    "main.js.map": "https://pranu2502.github.io/portfolio/static/js/main.65d58ab7.chunk.js.map",
+    "runtime-main.js": "https://pranu2502.github.io/portfolio/static/js/runtime-main.1e58b587.js",
+    "runtime-main.js.map": "https://pranu2502.github.io/portfolio/static/js/runtime-main.1e58b587.js.map",
+    "static/js/2.d12cb0dc.chunk.js": "https://pranu2502.github.io/portfolio/static/js/2.d12cb0dc.chunk.js",
+    "static/js/2.d12cb0dc.chunk.js.map": "https://pranu2502.github.io/portfolio/static/js/2.d12cb0dc.chunk.js.map",
+    "index.html": "https://pranu2502.github.io/portfolio/index.html",
+    "static/css/main.b6f55ebd.chunk.css.map": "https://pranu2502.github.io/portfolio/static/css/main.b6f55ebd.chunk.css.map",
+    "static/js/2.d12cb0dc.chunk.js.LICENSE.txt": "https://pranu2502.github.io/portfolio/static/js/2.d12cb0dc.chunk.js.LICENSE.txt",
+    "static/media/AuxD-logo.1ba7df51.png": "https://pranu2502.github.io/portfolio/static/media/AuxD-logo.1ba7df51.png",
+    "static/media/dp.667e3163.jpg": "https://pranu2502.github.io/portfolio/static/media/dp.667e3163.jpg",
+    "static/media/portfolio.546a4f26.png": "https://pranu2502.github.io/portfolio/static/media/portfolio.546a4f26.png",
+    "static/media/safe_excursions.f76e72fc.png": "https://pranu2502.github.io/portfolio/static/media/safe_excursions.f76e72fc.png",
+    "static/media/sliding_puzzle.96cbbb43.jpg": "https://pranu2502.github.io/portfolio/static/media/sliding_puzzle.96cbbb43.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.2a1a084d.js",
+    "static/js/runtime-main.1e58b587.js",
     "static/js/2.d12cb0dc.chunk.js",
     "static/css/main.b6f55ebd.chunk.css",
-    "static/js/main.6baa0fa6.chunk.js"
+    "static/js/main.65d58ab7.chunk.js"
   ]
 }
