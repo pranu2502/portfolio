@@ -26,6 +26,7 @@ import {
 import { DiMongodb, DiJavascript1 } from 'react-icons/di';
 import { SiMysql, SiCplusplus, SiC } from 'react-icons/si';
 import { GiSteeringWheel, GiShuttlecock } from 'react-icons/gi';
+import Pill from '../layout/Pill';
 function Home() {
 	const interestsList = [
 		{
@@ -151,31 +152,13 @@ function Home() {
 				<Text color="#00ffa2" fontSize="3xl" fontWeight="bold" mt={16}>
 					Interests:
 				</Text>
-				<Wrap mb={12}>
-					{interestsList.map((interest) => (
-						<WrapItem>
-							<Tag size="lg" colorScheme="cyan" borderRadius="md">
-								<TagLeftIcon boxSize="12px" as={interest.icon} />
-								<TagLabel>{interest.name}</TagLabel>
-							</Tag>
-						</WrapItem>
-					))}
-				</Wrap>
+				<Pill list={interestsList} color="cyan"></Pill>
 			</Box>
 			<Box>
 				<Text color="#00ffa2" fontSize="3xl" fontWeight="bold" mt={16}>
 					Preferred Tech:
 				</Text>
-				<Wrap mb={12}>
-					{techStack.map((interest) => (
-						<WrapItem>
-							<Tag size="lg" colorScheme="orange" borderRadius="md">
-								<TagLeftIcon boxSize="12px" as={interest.icon} />
-								<TagLabel>{interest.name}</TagLabel>
-							</Tag>
-						</WrapItem>
-					))}
-				</Wrap>
+				<Pill list={techStack} color="orange"></Pill>
 			</Box>
 		</div>
 	);
