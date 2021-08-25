@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "https://pranu2502.github.io/portfolio/static/css/main.b6f55ebd.chunk.css",
-    "main.js": "https://pranu2502.github.io/portfolio/static/js/main.65d58ab7.chunk.js",
-    "main.js.map": "https://pranu2502.github.io/portfolio/static/js/main.65d58ab7.chunk.js.map",
+    "main.js": "https://pranu2502.github.io/portfolio/static/js/main.05fbc2df.chunk.js",
+    "main.js.map": "https://pranu2502.github.io/portfolio/static/js/main.05fbc2df.chunk.js.map",
     "runtime-main.js": "https://pranu2502.github.io/portfolio/static/js/runtime-main.1e58b587.js",
     "runtime-main.js.map": "https://pranu2502.github.io/portfolio/static/js/runtime-main.1e58b587.js.map",
     "static/js/2.d12cb0dc.chunk.js": "https://pranu2502.github.io/portfolio/static/js/2.d12cb0dc.chunk.js",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.1e58b587.js",
     "static/js/2.d12cb0dc.chunk.js",
     "static/css/main.b6f55ebd.chunk.css",
-    "static/js/main.65d58ab7.chunk.js"
+    "static/js/main.05fbc2df.chunk.js"
   ]
 }
