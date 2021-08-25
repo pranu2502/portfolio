@@ -24,7 +24,7 @@ function Navbar() {
 						Home
 					</Link>
 				</NavLink>
-				<NavLink to="/about">
+				<NavLink to="/experience">
 					<Link
 						className="nav-bar-item"
 						color="white"
@@ -32,7 +32,7 @@ function Navbar() {
 							bg: transparentize(`brand.500`, 0.36),
 						}}
 					>
-						About
+						Experience
 					</Link>
 				</NavLink>
 				<NavLink to="/projects">
