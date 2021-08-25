@@ -1,11 +1,15 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useEffect } from 'react';
 import Navbar from './components/Navbar/Navbar';
 import './App.css';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { HashRouter as Router, Route } from 'react-router-dom';
+
 import Home from './components/screens/Home';
 import Experience from './components/screens/Experience';
 import Projects from './components/screens/Projects';
 function App() {
+	useEffect(() => {
+		console.log(process.env.PUBLIC_URL);
+	}, []);
 	return (
 		<div className="container">
 			<Router>
