@@ -18,12 +18,12 @@ import Card from '../layout/Card';
 function Projects() {
 	return (
 		<div>
-			<Center>
+			<Center mb={16}>
 				<Flex flexDirection="column" mt={120}>
 					<Heading color="white" mb={10}>
 						Projects
 					</Heading>
-					<SimpleGrid columns={{ sm: 1, md: 2 }} spacing={16}>
+					<SimpleGrid columns={{ md: 1, lg: 2 }} spacing={16}>
 						<Card
 							title="Sliding Puzzle Solver"
 							description="A gui based Python project that solves a Sliding puzzle using A* heuristic. 

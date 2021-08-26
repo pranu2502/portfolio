@@ -144,8 +144,7 @@ function Home() {
 					I am a Computer Science Undergrad from IIIT Bangalore, primarily
 					interested in Machine Learning, Web Development and App Development. I
 					like to explore new technology and work on my projects when I am free.
-					I love to play badminton and watch F1. I am all ears, all day if you
-					want to discuss Max vs Lewis.
+					I love to play badminton and watch F1.
 				</Text>
 			</Center>
 			<Box>
