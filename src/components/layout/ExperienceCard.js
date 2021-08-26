@@ -12,6 +12,7 @@ function ExperienceCard({ company, dates, role, img }) {
 				width="50vw"
 				mb={10}
 				h="120px"
+				bgColor="#1d2530"
 				_hover={{
 					boxShadow: 'dark-lg',
 				}}

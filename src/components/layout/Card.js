@@ -16,6 +16,7 @@ function Card({ title, github, description, image }) {
 			borderRadius="2xl"
 			boxShadow="2xl"
 			maxWidth="400px"
+			bgColor="#1d2530"
 			_hover={{
 				boxShadow: 'dark-lg',
 			}}
