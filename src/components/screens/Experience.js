@@ -9,8 +9,8 @@ function Experience() {
 	return (
 		<div>
 			<Center>
-				<Flex flexDirection="column" mt={120}>
-					<Heading color="white" mb={10}>
+				<Flex flexDirection="column" mt={40}>
+					<Heading color="#00ffa2" mb={10}>
 						Experience
 					</Heading>
 

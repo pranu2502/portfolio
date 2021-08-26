@@ -19,8 +19,8 @@ function Projects() {
 	return (
 		<div>
 			<Center mb={16}>
-				<Flex flexDirection="column" mt={120}>
-					<Heading color="white" mb={10}>
+				<Flex flexDirection="column" mt={40}>
+					<Heading color="#00ffa2" mb={10}>
 						Projects
 					</Heading>
 					<SimpleGrid columns={{ md: 1, lg: 2 }} spacing={16}>
@@ -38,12 +38,12 @@ function Projects() {
 							image={SE}
 							github="https://github.com/kernelpanic77/calvin-client"
 						/>
-						<Card
+						{/* <Card
 							title="Package Tracker"
 							description="Built using Java swing, given a set of nodes as hubs, package tracker basically finds the optimal 
 							route to travel between any two hubs"
 							github="#"
-						/>
+						/> */}
 						<Card
 							title="Portfolio"
 							description="Portfolio contains details about me like my projects, my experience, interests etc. Built using React and chakra-UI"

@@ -6,11 +6,12 @@ function Navbar() {
 	return (
 		<Box
 			width="60vw"
-			mt={12}
 			justifyContent="flex-end"
 			display="flex"
 			position="fixed"
 			top="0"
+			paddingBlock={12}
+			backgroundColor="rgb(25,32,42,0.8)"
 		>
 			<HStack spacing={16}>
 				<NavLink to="/">
