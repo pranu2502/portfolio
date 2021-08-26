@@ -7,9 +7,6 @@ import Home from './components/screens/Home';
 import Experience from './components/screens/Experience';
 import Projects from './components/screens/Projects';
 function App() {
-	useEffect(() => {
-		console.log(process.env.PUBLIC_URL);
-	}, []);
 	return (
 		<div className="container">
 			<Router>

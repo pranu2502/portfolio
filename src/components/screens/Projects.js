@@ -6,6 +6,7 @@ import {
 	Center,
 	Flex,
 	Container,
+	Heading,
 	SimpleGrid,
 } from '@chakra-ui/react';
 import Dp from './../../assets/dp.jpg';
@@ -19,6 +20,9 @@ function Projects() {
 		<div>
 			<Center>
 				<Flex flexDirection="column" mt={120}>
+					<Heading color="white" mb={10}>
+						Projects
+					</Heading>
 					<SimpleGrid columns={{ sm: 1, md: 2 }} spacing={16}>
 						<Card
 							title="Sliding Puzzle Solver"
