@@ -1,4 +1,4 @@
-import React, { Fragment, useEffect } from 'react';
+import React, { Fragment } from 'react';
 import Navbar from './components/Navbar/Navbar';
 import './App.css';
 import { HashRouter as Router, Route } from 'react-router-dom';

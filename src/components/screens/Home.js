@@ -1,16 +1,5 @@
 import React from 'react';
-import {
-	Box,
-	Text,
-	Image,
-	Center,
-	Flex,
-	Wrap,
-	WrapItem,
-	Tag,
-	TagLabel,
-	TagLeftIcon,
-} from '@chakra-ui/react';
+import { Box, Text, Image, Center, Flex } from '@chakra-ui/react';
 import Dp from './../../assets/dp.jpg';
 import {
 	FaLaptopCode,

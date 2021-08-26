@@ -1,14 +1,5 @@
 import React from 'react';
-import {
-	Text,
-	Flex,
-	Image,
-	Stack,
-	Link,
-	Heading,
-	StackDivider,
-} from '@chakra-ui/react';
-import AuxD from './../../assets/AuxD-logo.png';
+import { Text, Flex, Image, Stack, Link } from '@chakra-ui/react';
 function ExperienceCard({ company, dates, role, img }) {
 	return (
 		<Link href="#" isExternal mt={4}>

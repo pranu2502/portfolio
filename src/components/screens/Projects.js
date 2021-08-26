@@ -1,15 +1,5 @@
 import React from 'react';
-import {
-	Box,
-	Text,
-	Image,
-	Center,
-	Flex,
-	Container,
-	Heading,
-	SimpleGrid,
-} from '@chakra-ui/react';
-import Dp from './../../assets/dp.jpg';
+import { Center, Flex, Heading, SimpleGrid } from '@chakra-ui/react';
 import SE from './../../assets/safe_excursions.png';
 import SPS from './../../assets/sliding_puzzle.jpg';
 import portfolio from './../../assets/portfolio.png';

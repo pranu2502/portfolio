@@ -1,6 +1,6 @@
 import { Center, HStack, Stack, Text, Link } from '@chakra-ui/react';
 import React from 'react';
-import { SiGithub, SiLinkedin, SiGmail } from 'react-icons/si';
+import { SiGithub, SiLinkedin } from 'react-icons/si';
 import { GrMail } from 'react-icons/gr';
 import { CgCopyright } from 'react-icons/cg';
 function Footer() {
